@@ -2,7 +2,7 @@
 
 ## CSS flexbox properties and values
 
-## Container
+**Container**
 
 - `display: flex;`
     - Defines the element as a flex container.
@@ -19,7 +19,7 @@
 - `align-content: flex-start | flex-end | center | space-between | space-around | stretch;`
     - Defines how flex lines are aligned along the cross axis of the flex container when there is extra space in the flex container.
 
-## Flex Items
+**Flex Items**
 
 - `order: <integer>;`
     - Defines the order in which a flex item appears within the flex container.
@@ -36,16 +36,16 @@
 
 By using these properties and values, developers can create flexible and responsive layouts with CSS flexbox. Let me know if you have any other questions!
 
-# CSS Grid Properties and values
+## CSS Grid Properties and values
 
 CSS Grid is a powerful tool for creating complex and flexible layouts. Here are the properties you can use to customize your grid:
 
-## Display
+**Display**
 
 - `display: grid | inline-grid;`
     - Defines the element as a grid container.
 
-## Grid Template
+**Grid Template**
 
 - `grid-template-columns: value | repeat(n, value) | minmax(min, max) | auto | fr;`
     - Defines the size of the columns in the grid.
@@ -56,7 +56,7 @@ CSS Grid is a powerful tool for creating complex and flexible layouts. Here are 
 - `grid-template: none | value;`
     - A shorthand for defining grid-template-rows, grid-template-columns, and grid-template-areas in a single declaration.
 
-## Grid Gaps
+**Grid Gaps**
 
 - `grid-column-gap: value;`
     - Defines the size of the gap between columns in the grid.
@@ -65,7 +65,7 @@ CSS Grid is a powerful tool for creating complex and flexible layouts. Here are 
 - `grid-gap: value;`
     - A shorthand for defining grid-column-gap and grid-row-gap in a single declaration.
 
-## Grid Auto
+**Grid Auto**
 
 - `grid-auto-columns: value | minmax(min, max) | auto | fr;`
     - Defines the size of the columns that are not explicitly defined in the grid.
@@ -76,7 +76,7 @@ CSS Grid is a powerful tool for creating complex and flexible layouts. Here are 
 - `grid: none | value;`
     - A shorthand for defining grid-template-rows, grid-template-columns, grid-template-areas, grid-auto-rows, grid-auto-columns, and grid-auto-flow in a single declaration.
 
-## Grid Items
+**Grid Items**
 
 - `grid-area: auto | row-start / column-start / row-end / column-end | name;`
     - Defines a grid item's size and location within the grid.
@@ -89,7 +89,7 @@ CSS Grid is a powerful tool for creating complex and flexible layouts. Here are 
 - `grid-column-end: auto | value;`
     - Defines the ending column position of a grid item.
 
-## Alignment
+**Alignment**
 
 - `justify-items: start | end | center | stretch;`
     - Aligns grid items along the inline (row) axis.
