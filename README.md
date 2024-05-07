@@ -2,8 +2,6 @@
 
 ## CSS flexbox properties and values
 
-**Flex Container**
-
 Defines the element as a flex container.
 
 `display: flex;`
