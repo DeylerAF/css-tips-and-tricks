@@ -4,20 +4,32 @@
 
 **Container**
 
-- `display: flex;`
-    - Defines the element as a flex container.
-- `flex-direction: row | row-reverse | column | column-reverse;`
-    - Defines the direction of the main axis in the flex container.
-- `flex-wrap: nowrap | wrap | wrap-reverse;`
-    - Defines whether flex items are forced onto a single line or can wrap onto multiple lines.
-- `flex-flow: flex-direction || flex-wrap;`
-    - A shorthand for defining flex-direction and flex-wrap in a single declaration.
-- `justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;`
-    - Defines how flex items are aligned along the main axis of the flex container.
-- `align-items: flex-start | flex-end | center | baseline | stretch;`
-    - Defines how flex items are aligned along the cross axis of the flex container.
-- `align-content: flex-start | flex-end | center | space-between | space-around | stretch;`
-    - Defines how flex lines are aligned along the cross axis of the flex container when there is extra space in the flex container.
+Defines the element as a flex container.
+
+`display: flex;`
+
+Defines the direction of the main axis in the flex container.
+
+`flex-direction: row | row-reverse | column | column-reverse;`
+
+Defines whether flex items are forced onto a single line or can wrap onto multiple lines.
+
+`flex-wrap: nowrap | wrap | wrap-reverse;`
+
+A shorthand for defining flex-direction and flex-wrap in a single declaration.
+`flex-flow: flex-direction || flex-wrap;`
+
+Defines how flex items are aligned along the main axis of the flex container.
+
+`justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;`
+
+Defines how flex items are aligned along the cross-axis of the flex container.
+
+`align-items: flex-start | flex-end | center | baseline | stretch;`
+
+Defines how flex lines are aligned along the cross-axis of the flex container when there is extra space in the flex container.
+
+`align-content: flex-start | flex-end | center | space-between | space-around | stretch;`
 
 **Flex Items**
 
