@@ -2,7 +2,7 @@
 
 ## CSS flexbox properties and values
 
-**Container**
+**Flex Container**
 
 Defines the element as a flex container.
 
